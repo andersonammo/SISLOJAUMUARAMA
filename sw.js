@@ -1,10 +1,10 @@
-const CACHE_NAME = 'palotina-v2'; // Mudamos para v2 para forçar a atualização!
+const CACHE_NAME = 'UMUARAMA-v2'; // Mudamos para v2 para forçar a atualização!
 
 // Arquivos essenciais para o aplicativo funcionar offline
 const urlsToCache = [
-  '/palotina/',
-  '/palotina/index.html',
-  '/palotina/manifest.json'
+  '/umuarama/',
+  '/umuarama/index.html',
+  '/umuarama/manifest.json'
 ];
 
 self.addEventListener('install', event => {
